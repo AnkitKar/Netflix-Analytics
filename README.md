@@ -39,15 +39,3 @@ Sources:
 5. Start Jupyter: `jupyter notebook`
 6. Open `Netflix_Content_Evolution_Analysis.ipynb` and choose **Run All**.
 7. Save the notebook after all cells finish; capture a screenshot of the last successful outputs.
-
-## Git version control
-Initialise a repository and commit the working files:
-```bash
-git init
-git add README.md requirements.txt download_dataset.py Netflix_Content_Evolution_Analysis.ipynb agile/
-git commit -m "Add Netflix content evolution analysis project"
-```
-Add the dataset separately only if its terms of use permit redistribution. Otherwise keep it local and add `data/netflix_titles.csv` to `.gitignore`. Then create a GitHub repository and push the project. Add the actual repository URL to your assignment before submission; no repository has been created by this package.
-
-## Submission status
-The notebook structure and code are prepared, but it has **not yet been executed against the CSV in this workspace** because the dataset file was not included in the uploaded materials and network download is unavailable in this execution environment. The data-dependent tables, charts, and insights are produced when you run it with the CSV. Do not submit it as an executed notebook until you have run all cells and checked the outputs.
